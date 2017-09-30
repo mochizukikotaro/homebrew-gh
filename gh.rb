@@ -6,7 +6,7 @@ class Gh < Formula
   desc ""
   homepage ""
   url "https://github.com/mochizukikotaro/gh/archive/v0.1-beta.3.tar.gz"
-  sha256 "9edfabc0bac253a8a6c151a922e8cbfa4eed635824a26f1bfc767713d459f79e"
+  sha256 "417cb6e5640253ad6aa74d81469d5e2ff119c8029fbe8febb375b16c7b829056"
   version "0.1-beta.3"
 
   # depends_on "cmake" => :build
