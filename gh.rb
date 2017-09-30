@@ -5,7 +5,7 @@
 class Gh < Formula
   desc ""
   homepage ""
-  url "https://github.com/mochizukikotaro/gh/archive/v0.1.0.tar.gz"
+  url "https://github.com/mochizukikotaro/gh/archive/v0.1.1.tar.gz"
   sha256 "f8f5ecc703edc29cb6128f85ac70eb51697118f8528c8434b3a32cf726708555"
 
   # depends_on "cmake" => :build
@@ -20,6 +20,8 @@ class Gh < Formula
     #                       "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
     # system "make", "install" # if this fails, try separate make/make install steps
+
+    # NOTE: ここが知見
     bin.install 'gh'
   end
 
