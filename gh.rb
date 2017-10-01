@@ -5,7 +5,7 @@
 class Gh < Formula
   desc ""
   homepage ""
-  url "https://github.com/mochizukikotaro/gh/archive/v0.1-beta.3.tar.gz"
+  url "https://github.com/mochizukikotaro/gh/archive/v0.1.1.tar.gz"
   sha256 "417cb6e5640253ad6aa74d81469d5e2ff119c8029fbe8febb375b16c7b829056"
   version "0.1-beta.3"
 
